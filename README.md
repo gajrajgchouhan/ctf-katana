@@ -846,6 +846,10 @@ Forensics
 
 	An online tool that allows you to modify the hexadecimal and binary values of an uploaded file. This is a good tool for correcting files with a corrupt [magic number]
 
+* [hexedit]
+
+	A linux tool to view and edit files in hexadecimal or in ASCII.
+
 * [`dumpzilla`][dumpzilla]
 
 	A [Python] script to examine a `.mozilla` configuration file, to examine downloads, bookmarks, history or bookmarks and registered passwords. Usage may be as such:
