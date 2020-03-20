@@ -444,6 +444,38 @@ mplayer -af scaletempo -speed 64 flag.mp3
 
     ![img/dna_codes.png](img/dna_codes.png)
     ![img/genome_coding.jpg](img/genome-coding.jpg)
+    
+    This might not work sometimes, try reversing binary numbers of C and G.
+    Else use this [decoder](http://dnaencoder.dustinmichels.com/)
+    Or the script based on this decoder,
+    
+    ```python
+    def encode_dna(string):
+    	encode = []
+	l = {'00':'A','01':'C','10':'G','11':'T'}
+	for i in string:
+		s = ''
+		x = bin(ord(i))
+		x = ''.join(x.split('b'))
+		for j in range(0,8,2):
+			s += l[x[j:j+2]]
+		s = s[::-1]
+		encode.append(s)
+	return ''.join(encode)
+    def decode_dna(encode):
+    	sol = []
+	l = {'A':'00','C':'01','G':'10','T':'11'}
+	for i in range(0,len(encode),4):
+		s = ''
+		x = encode[i:i+4]
+		x = x[::-1]
+		print(x)
+		for k in x:
+			s += l[k]
+		sol.append((int(s,2)))
+	sol = ''.join([chr(i) for i in sol])
+	return sol
+    ```
 
 
 * Extract Thumbnail (data is covered in original image)
