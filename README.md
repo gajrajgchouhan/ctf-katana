@@ -438,6 +438,10 @@ exiftool -b -ThumbnailImage my_image.jpg > my_thumbnail.jpg
 * SONIC Visualizer (audio spectrum)
 
 	Some classic challenges use an audio file to hide a flag or other sensitive stuff. SONIC visualizer easily shows you [spectrogram](https://en.wikipedia.org/wiki/Spectrogram). __If it sounds like there is random bleeps and bloops in the sound, try this tactic!__
+	
+* QSSTV
+	Use this to decode qsstv audio format, a similiar one is PSK !
+	Follow [this](https://ourcodeworld.com/articles/read/956/how-to-convert-decode-a-slow-scan-television-transmissions-sstv-audio-file-to-images-using-qsstv-in-ubuntu-18-04)
 
 * [Detect DTMF Tones]
 
