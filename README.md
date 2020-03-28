@@ -1695,3 +1695,72 @@ OpenToAll - https://opentoallctf.github.io/
 [International Code of Signals Maritime]: https://en.wikipedia.org/wiki/International_Code_of_Signals
 [maritime flags translator]: https://www.dcode.fr/maritime-signals-code
 [static-binaries]: https://github.com/andrew-d/static-binaries
+
+Tools
+----------------------
+
+General tools
+
+zarduz/ctf-tools github repo with loads of CTF tools.
+
+Cryptography
+
+Sagemath
+Python scripting:
+	pycrypto
+	pwntools
+
+Web Security
+
+Fiddler.
+swisskyrepo/PayloadsAllTheThings: A list of useful payloads and bypass for Web Application Security and Pentest/CTF
+
+Forensics
+
+Wireshark
+tshark
+tcpdump
+python scapy
+foremost for recovering files from disk images or other files.
+Sleuth Kit Disk image forensic toolkit.
+Volatility Memory forensics framework.
+
+Reverse Engineering
+
+IDA: A nice tool for reverse engineering.
+RetDec decompiler
+Binary Ninja: Disassembler and hex editor.
+x64dbg Open source x64/x32 windows debugger.
+radare2 cutter Open source GUI for radare2.
+	Python scripting:
+	Angr: a python framework for analyzing binaries. It combines both static and dynamic symbolic ("concolic") analysis, making it applicable to a variety of tasks.
+
+Pwn
+
+gdb: GNU Debugger
+gdb-peda: Makes the debugger nicer
+Terminal command: ltrace for tracing library calls. Use the man page.
+Terminal command: strace for tracing syscalls. Use the man page.
+pwntools
+
+Steganography
+
+Audacity, for sound files.
+Sonic Visualizer, for sound files.
+Online spectrum analyzer, for sound files.
+Stegsolve for image files.
+Zsteg for png image files.
+Stego toolkit, a collection of many steganography tools.
+
+Misc
+z3: "Z3 is a theorem prover from Microsoft Research."
+
+To find all functions in an executable, you can use readelf -a ./executable, or sometimes it is possible to simply write disas and autocomplete when in gdb-peda to get a list of functions. The source code of an executable have the same information, as all the functions are written inside the code. Therefore, this step may only be useful for the tasks that do not provide source files. However, you could try to run the command on a task where the source code is provided, to test it and see if you understand it.
+Tips for gdb-peda
+gdb-peda is a plugin for your terminal to make debugging easier and more understandable.
+Download gdb-peda from this site.
+Useful commands:
+Run with gdb-peda$ r
+Disassemble with gdb-peda$ disas functionname
+Find memory address of a function by entering gdb-peda$ p functionname
+Set breakpoint using gdb-peda$ b *memoryadress or gdb-peda$ b functionna
