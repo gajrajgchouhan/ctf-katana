@@ -216,6 +216,8 @@ Esoteric Languages
 -----------------------
 
 
+* [JSFuck](http://www.jsfuck.com/)
+	Consists of braces, plus sign and exclamation. Simple evaluate in browser of console or the given link
 * [https://tio.run/](https://tio.run/)
 
 	An online tool that has a ton of Esoteric language interpreters. 
