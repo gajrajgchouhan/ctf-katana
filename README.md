@@ -233,6 +233,11 @@ Esoteric Languages
 .<++++++++++++++++++++++.>++++++++++++++..>+.----.>------.+++++++.--------.<+++.>++++++++++++..-------.++.
 ```
 
+* Pikalang
+	Inspired by the pokemon. Contains a lot of pika and pikachu.
+	[http://martin.ingesen.no/Pikalang/](http://martin.ingesen.no/Pikalang/)
+
+
 * COW
 
 	This language is easily identified by numerous "MOO" statements and random capitalization. It has an option on [https://tio.run/](https://tio.run/).
