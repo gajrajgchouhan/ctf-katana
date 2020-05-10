@@ -218,6 +218,7 @@ Esoteric Languages
 
 * [JSFuck](http://www.jsfuck.com/)
 	Consists of braces, plus sign and exclamation. Simple evaluate in browser of console or the given link
+
 * [https://tio.run/](https://tio.run/)
 
 	An online tool that has a ton of Esoteric language interpreters. 
@@ -385,6 +386,9 @@ Steganography
 
 	Tabs and spaces could be representing 1's and 0's and treating them as a binary message... or, they could be whitespace done with [`snow`][snow] or an esoteric programming language interpreter: [https://tio.run/#whitespace](https://tio.run/#whitespace)
 
+* Digital Invisible Ink Toolkit
+	Contains various algortithms for decoding or encoding file in the image. [http://diit.sourceforge.net/index.html](http://diit.sourceforge.net/index.html)
+
 * Audio Speed Change (also change pitch)
 
 ```
@@ -448,11 +452,11 @@ exiftool -b -ThumbnailImage my_image.jpg > my_thumbnail.jpg
 	
 * QSSTV
 	Use this to decode qsstv audio format, a similiar one is PSK !
-	Follow [this](https://ourcodeworld.com/articles/read/956/how-to-convert-decode-a-slow-scan-television-transmissions-sstv-audio-file-to-images-using-qsstv-in-ubuntu-18-04)
+	Follow [this for decoding the sstv](https://ourcodeworld.com/articles/read/956/how-to-convert-decode-a-slow-scan-television-transmissions-sstv-audio-file-to-images-using-qsstv-in-ubuntu-18-04)
 
 * [Detect DTMF Tones]
 
-	Audio frequencies common to a phone button, DTMF: [https://en.wikipedia.org/wiki/Dual-tone_multi-frequency_signaling](https://en.wikipedia.org/wiki/Dual-tone_multi-frequency_signaling).
+	Audio frequencies common to a phone button, DTMF: [https://en.wikipedia.org/wiki/Dual-tone_multi-frequency_signaling](https://en.wikipedia.org/wiki/Dual-tone_multi-frequency_signaling). Online decoder : [https://unframework.github.io/dtmf-detect/#/](https://unframework.github.io/dtmf-detect/#/)
 
 * Phone-Keypad
 
