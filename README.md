@@ -419,6 +419,9 @@ mplayer -af scaletempo -speed 64 flag.mp3
 		s = s[::-1]
 		encode.append(s)
 	return ''.join(encode)
+    ```
+    
+    ```python
     def decode_dna(encode):
     	sol = []
 	l = {'A':'00','C':'01','G':'10','T':'11'}
