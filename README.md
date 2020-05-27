@@ -461,6 +461,9 @@ exiftool -b -ThumbnailImage my_image.jpg > my_thumbnail.jpg
 
 	Audio frequencies common to a phone button, DTMF: [https://en.wikipedia.org/wiki/Dual-tone_multi-frequency_signaling](https://en.wikipedia.org/wiki/Dual-tone_multi-frequency_signaling). Online decoder : [https://unframework.github.io/dtmf-detect/#/](https://unframework.github.io/dtmf-detect/#/)
 
+* Tap Cipher
+	Could be a morse code, 0 - space, 1,2 - either dot or dash.
+
 * Phone-Keypad
 
 	Some messages may be hidden with a string of numbers, but really be encoded with old cell-phone keypads, like text messaging with numbers repeated:
