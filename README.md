@@ -1713,7 +1713,6 @@ OpenToAll - https://opentoallctf.github.io/
 [Responder.py]: https://github.com/SpiderLabs/Responder
 [International Code of Signals Maritime]: https://en.wikipedia.org/wiki/International_Code_of_Signals
 [maritime flags translator]: https://www.dcode.fr/maritime-signals-code
-<<<<<<< HEAD
 
 Tools
 ----------------------
@@ -1783,6 +1782,4 @@ Run with gdb-peda$ r
 Disassemble with gdb-peda$ disas functionname
 Find memory address of a function by entering gdb-peda$ p functionname
 Set breakpoint using gdb-peda$ b *memoryadress or gdb-peda$ b functionna
-=======
 [static-binaries]: https://github.com/andrew-d/static-binaries
->>>>>>> JohnHammond/master
